@@ -215,4 +215,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml!/fastapi-application/.env
 !/fastapi-application/.env
-!/fastapi-application/.env
+
