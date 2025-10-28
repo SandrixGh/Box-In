@@ -3,7 +3,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from core.models import db_helper
+from models import db_helper
 from crud import boxes as boxes_crud
 from schemas.box import BoxRead, BoxCreate
 

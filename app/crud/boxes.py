@@ -3,7 +3,7 @@ from typing import Sequence
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from core.models.box import Box
+from models import Box
 from schemas.box import BoxCreate
 
 

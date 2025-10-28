@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Mapped, mapped_column
 
-from core.models import Base
-from core.models.mixins.int_id_pk import IntIdPkMixin
+from models import Base
+from models.mixins.int_id_pk import IntIdPkMixin
 
 
 class Box(IntIdPkMixin, Base):
