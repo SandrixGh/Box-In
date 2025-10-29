@@ -9,8 +9,10 @@ class BoxBase(BaseModel):
 class BoxCreate(BoxBase):
     pass
 
-class BoxUpdate(BoxBase):
-    pass
+class BoxUpdate(BaseModel):
+    name: str | None
+    description: str | None
+    price: int | None
 
 class BoxRead(BoxBase):
     model_config = ConfigDict(
