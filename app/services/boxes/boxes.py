@@ -4,7 +4,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from models import Box
-from schemas.box import BoxCreate
+from schemas.boxes.box import BoxCreate
 
 
 async def get_all_boxes(

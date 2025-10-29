@@ -5,7 +5,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from models import db_helper
 from services import boxes as boxes_crud
-from schemas.box import BoxRead, BoxCreate
+from schemas.boxes.box import BoxRead, BoxCreate
 
 router = APIRouter(
     tags=["Boxes"],
