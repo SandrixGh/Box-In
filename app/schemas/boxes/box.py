@@ -9,6 +9,9 @@ class BoxBase(BaseModel):
 class BoxCreate(BoxBase):
     pass
 
+class BoxUpdate(BoxBase):
+    pass
+
 class BoxRead(BoxBase):
     model_config = ConfigDict(
         from_attributes=True
